@@ -1,0 +1,77 @@
+site_name: IT 快速使用指南
+site_author: Vitan
+nav:                    # 文档目录
+    - 新员工入职使用指南: index.md
+    - 笔记本使用须知: notebook.md
+    - 笔记本申购、借用、维修须知: BuyNotenook.md
+    - WLAN 无线网络设置: wlan.md
+    - IT 软件下载: Download.md
+    - IT 故障申报处理: ithelp.md
+    - 凭证管理: VoucherManagement.md
+    - Apple 笔记本安装虚拟机: apple.md
+    - 如何区分各办公系统、资源账号密码及权限: Account.md
+    - 视频会议系统简易操作指南: VideoconferencingSystem.md
+    - 视频会议移动一键终端操作手册: VideoconferencingMobile.md
+
+    - 邮箱事务:
+      - 检查邮件客户端是否使用POP连接类型: CheckPOP.md
+      - Windows Live Mail 设置: Windows_Live_Mail_Setting.md
+      - Office Outlook 设置: OutlookSetting.md
+      - Foxmail 客户端邮件数据部分: FoxMail.md
+      - McBook 邮件客户端数据备份: MacMailBackup.md
+      - Outlook Express 客户端邮件数据备份: OutlookExpressBackup.md
+      - Windows Live Mail 客户端邮件数据备份: LiveMailBackup.md
+      - Live Mail 邮箱签名设置: LiveMailSignature.md
+      - Live Mail 导入通讯录: LiveMailAddressBook.md
+      - Outlook 导入通讯录: OutlookAddressBook.md
+      
+    - KM 一体机:
+      - 网络打印机安装: PrnterInstall.md
+      - 工卡注册流程: Card.md
+      - 作业管理平台: KMWork.md
+      - 打印输出报错: PrintErr.md
+      - 证件复印: PrintID.md
+      - 彩色打印功能设置: ColorPrint.md
+      - 传真功能: ChuanZhen.md
+      - 传真平台: czpt.md
+
+    - 软件（办公系统）安装视频:
+      - MES 制造执行系统安装教程: MES.md
+      - SAP 安装教程: SAP.md
+      - VSS 安装教程: VSS.md
+      - Windows Live Mail 邮件导出、导入: LiveMailOut.md
+
+theme:
+  name: material
+  language: 'zh'
+  favicon: '/imgs/logo.png'
+  icon:
+    logo: material/library
+    repo: fontawesome/brands/git-alt
+  features:
+    - instant
+
+  logo: '/imgs/logo.png'
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Ubuntu
+    code: Ubuntu Mono
+
+plugins:
+  - git-revision-date-localized:
+  - search:
+      prebuild_index: true
+      lang:
+        - en
+        - de
+        - ru
+        - ja
+  - minify:
+      minify_html: true
+
+
+markdown_extensions:
+  - codehilite
+  - admonition
