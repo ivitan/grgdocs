@@ -46,7 +46,7 @@ nav:
 
 theme:
   name: null
-  custom_dir: mkdocs-material/material
+  custom_dir: material/material
   language: 'zh'
   base_url: 'GRG_IT/docs/'
   logo: '/imgs/logo.png'

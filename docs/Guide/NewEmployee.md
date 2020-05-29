@@ -15,7 +15,7 @@ GRGBANKING 域、上网认证、OA、邮箱使用相同的帐号名。
 #### 域账号密码
 
 使用初始账号密码登录后可按 **Ctrl+Alt+Delete** 组合键可选择更改密码，GRGBANKING 域密码更改后，上网认证系统密码也随之更改。笔记本等未加域设备可直接访问
-<https://grgsrv027.grgit.com/iisadmpwd>自行修改，修改后请注销再次登录。
+<https://adpw/RDWeb/Pages/zh-CN/password.aspx>自行修改，修改后请注销再次登录。
 #### OA 账号密码
 
 - 可访问 <http://oa.grgbanking.com/general/person_info/pass/> 进行修改。

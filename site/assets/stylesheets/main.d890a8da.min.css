@@ -961,7 +961,7 @@ html .md-footer-meta.md-typeset a {
 
 html .md-footer-meta.md-typeset a:focus,
 html .md-footer-meta.md-typeset a:hover {
-  color: var(--md-default-bg-color)
+  color: #2094f3;
 }
 
 .md-footer-copyright {
