@@ -3,8 +3,8 @@
     **双击视频，即可全屏播放**
 
 <video width="756" height="480" controls>
- <source src="./avi/SAP_GUI_740安装.mp4" type="video/mp4"/>
- <embed src="./avi/SAP_GUI_740安装.mp4" type="application/x-shockwave-flash" width="980" height="570" allowscriptaccess="always" allowfullscreen="true" autoplay="false"></embed>
+ <source src="../../avi/SAP_GUI_740安装.mp4" type="video/mp4"/>
+ <embed src="../../avi/SAP_GUI_740安装.mp4" type="application/x-shockwave-flash" width="980" height="570" allowscriptaccess="always" allowfullscreen="true" autoplay="false"></embed>
 <!--IE 8 - add 25-30 pixels to vid height to allow QT player controls--> 
 </video>
 

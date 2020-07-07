@@ -33,3 +33,8 @@ mkdocs build --clean # Clean Cache
 ```
 
 - Static pages all in ./site
+
+# Deploy gh-pages
+```
+mkdocs gh-deploy --clean
+```
