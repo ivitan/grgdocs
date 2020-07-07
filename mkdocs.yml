@@ -49,8 +49,8 @@ theme:
   custom_dir: material/material
   language: 'zh'
   base_url: 'GRG_IT/docs/'
-  logo: '/imgs/logo.png'
-  favicon: '/imgs/fa.png'
+  logo: './imgs/logo.png'
+  favicon: './imgs/fa.png'
   icon:
     logo: material/library
     repo: fontawesome/brands/git-alt
